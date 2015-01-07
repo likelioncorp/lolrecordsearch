@@ -3,5 +3,15 @@
     <div class="navbar-header">
       <a href="/" class="navbar-brand">롤 전적 검색</a>
     </div>
+    <div class="navbar-collapse collapse">
+      <div class="navbar-form navbar-right">
+        <div id="SearchForm" class="input-group">
+          <input type="text" placeholder="소환사명" value="<%= params[:name] %>" class="form-control">
+          <span class="input-group-btn">
+            <button class="btn btn-primary">전적 검색</button>
+          </span>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
